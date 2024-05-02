@@ -8,6 +8,13 @@
       "password": "d",
       "certificate": "f",
       "auditor": false
+    },
+    {
+      "firstname": "a",
+      "lastname": "b",
+      "email": "carl@test.com",
+      "password": "tester",
+      "id": "fL5I2xB"
     }
   ]
 }

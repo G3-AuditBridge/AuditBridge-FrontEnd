@@ -1,13 +1,16 @@
 <script>
+import SignUpAuditorComponent from "./public/pages/sign-up-auditor.component.vue";
 export default {
-  name: 'app'
-
+  name: 'app',
+  components:{
+    SignUpAuditorComponent
+  }
 }
 
 </script>
 
 <template>
-
+<router-view/>
 </template>
 
 <style>

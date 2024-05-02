@@ -5,7 +5,12 @@ export default {
 </script>
 
 <template>
-<h1>Sign Up</h1>
+  <pv-button>
+    <router-link to="/sign-up-auditor">Auditor</router-link>
+  </pv-button>
+  <pv-button>
+    <router-link to="/sign-up-owner">Owner</router-link>
+  </pv-button>
 </template>
 
 <style scoped>
