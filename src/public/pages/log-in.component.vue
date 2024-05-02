@@ -34,7 +34,7 @@ export default {
   <h1>Login</h1>
   <span class="flex align-items-center flex-column">
     <pv-input-text v-model="email" placeholder="Email address"/>
-    <pv-input-text v-model="password" placeholder="Password"/>
+    <pv-input-password v-model="password" placeholder="Password" toggleMask/>
     <pv-button v-on:click="login">Login</pv-button>
     <p>
       New to Audit Bridge ?

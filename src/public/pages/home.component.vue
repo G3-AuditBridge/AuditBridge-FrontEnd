@@ -1,17 +1,23 @@
 <script>
+import HeaderComponent from "../components/header.component.vue";
 export default {
+
   name: "home",
+  components:{
+    HeaderComponent
+  },
   mounted() {
     let user = localStorage.getItem('user-info');
     if(!user){
-      this.$router.push({name:'SignUpAuditor'})
+      this.$router.push({name:'Login'})
     }
   }
 }
 </script>
 
 <template>
-<h1>Hello User</h1>
+  <HeaderComponent/>
+  <h1>Hello User</h1>
 </template>
 
 <style scoped>
