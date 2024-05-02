@@ -5,8 +5,8 @@ export default {
   name: "sign-up-owner",
   data(){
     return{
-      firstname:'',
-      lastname:'',
+      first_name:'',
+      last_name:'',
       establishment:'',
       email:'',
       password:''
@@ -15,8 +15,8 @@ export default {
   methods:{
     async signUp(){
       let result = await axios.post("http://localhost:3000/users", {
-        firstname:this.firstname,
-        lastname:this.lastname,
+        first_name:this.first_name,
+        last_name:this.last_name,
         email:this.email,
         password:this.password
       });
@@ -41,8 +41,8 @@ export default {
   <img src="../../assets/logo-complete.png"/>
   <h1>Create your account</h1>
   <div class="flex align-items-center flex-column">
-  <pv-input-text v-model="firstname" placeholder="First Name"/>
-  <pv-input-text v-model="lastname" placeholder="Last Name"/>
+  <pv-input-text v-model="first_name" placeholder="First Name"/>
+  <pv-input-text v-model="last_name" placeholder="Last Name"/>
     <pv-input-text v-model="establishment" placeholder="Establishment Name"/>
   <pv-input-text v-model="email" placeholder="Email address"/>
   <pv-input-password v-model="password" placeholder="Password"/>
