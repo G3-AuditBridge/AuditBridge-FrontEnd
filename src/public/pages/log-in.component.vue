@@ -35,8 +35,10 @@ export default {
   <PublicHeader/>
   <h1>Login</h1>
   <span class="flex align-items-center flex-column">
-    <pv-input-text v-model="email" placeholder="Email address"/>
-    <pv-input-password v-model="password" placeholder="Password" :feedback="false" toggleMask/>
+    <div class="input flex align-items-center flex-column">
+    <pv-input-text  v-model="email" placeholder="Email address"/>
+    <pv-input-password class="input" v-model="password" placeholder="Password" :feedback="false" toggleMask/>
+    </div>
     <pv-button v-on:click="login">Login</pv-button>
     <p>
       New to Audit Bridge ?
@@ -46,5 +48,7 @@ export default {
 </template>
 
 <style scoped>
-
+.input{
+  padding: 2rem;
+}
 </style>
