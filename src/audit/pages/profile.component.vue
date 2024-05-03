@@ -1,9 +1,9 @@
 <script>
-import HeaderComponent from "../components/header.component.vue";
-import MenuComponent from "../components/menu.component.vue";
+  import HeaderComponent from "../components/header.component.vue";
+  import MenuComponent from "../components/menu.component.vue";
 
 export default {
-  name: "requests",
+  name: "profile",
   components:{
     HeaderComponent,
     MenuComponent
@@ -22,7 +22,7 @@ export default {
   <div class="page">
 
     <MenuComponent/>
-    <h1>Requests</h1>
+    <h1>Profile</h1>
   </div>
 </template>
 

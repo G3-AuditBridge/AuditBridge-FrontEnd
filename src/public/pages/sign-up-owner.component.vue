@@ -1,8 +1,12 @@
 <script>
 import axios from "axios";
+import PublicHeader from "../components/public-header.component.vue";
 
 export default {
   name: "sign-up-owner",
+  components:{
+    PublicHeader
+  },
   data(){
     return{
       first_name:'',
@@ -38,7 +42,7 @@ export default {
 </script>
 
 <template>
-  <img src="../../assets/logo-complete.png"/>
+  <PublicHeader/>
   <h1>Create your account</h1>
   <div class="flex align-items-center flex-column">
     <pv-input-text v-model="first_name" placeholder="First Name"/>
