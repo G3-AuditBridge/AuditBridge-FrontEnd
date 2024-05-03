@@ -41,15 +41,15 @@ export default {
   <img src="../../assets/logo-complete.png"/>
   <h1>Create your account</h1>
   <div class="flex align-items-center flex-column">
-  <pv-input-text v-model="first_name" placeholder="First Name"/>
-  <pv-input-text v-model="last_name" placeholder="Last Name"/>
+    <pv-input-text v-model="first_name" placeholder="First Name"/>
+    <pv-input-text v-model="last_name" placeholder="Last Name"/>
     <pv-input-text v-model="establishment" placeholder="Establishment Name"/>
-  <pv-input-text v-model="email" placeholder="Email address"/>
-  <pv-input-password v-model="password" placeholder="Password"/>
-  <pv-input-password placeholder="Repeat password"/>
-  <pv-file-upload/>
-  <pv-checkbox/>I agree with the Terms of Service
-  <pv-button v-on:click="signUp">Register</pv-button>
+    <pv-input-text v-model="email" placeholder="Email address"/>
+    <pv-input-password v-model="password" placeholder="Password"/>
+    <pv-input-password placeholder="Repeat password"/>
+    <pv-file-upload/>
+    <pv-checkbox/>I agree with the Terms of Service
+    <pv-button v-on:click="signUp">Register</pv-button>
   </div>
 </template>
 
