@@ -13,7 +13,7 @@ export default {
   },
   methods:{
     async login(){
-      let result = await axios.get(`http://localhost:3000/users?email=${this.email}&password=${this.password}`)
+      let result = await axios.get(`https://my-json-server.typicode.com/G3-AuditBridge/AuditBridge-FakeAPI/users?email=${this.email}&password=${this.password}`)
       if(result.status==200 && result.data.length > 0){
         alert("Log In Successfully")
         localStorage.setItem("user-info",JSON.stringify(result.data[0]))
