@@ -6,7 +6,9 @@ import SignUpOwnerComponent from "../public/pages/sign-up-owner.component.vue";
 import LogInComponent from "../public/pages/log-in.component.vue";
 import MessagesComponent from "../audit/pages/messages.component.vue";
 import RequestsComponent from "../audit/pages/requests.component.vue";
+import ProfileComponent from "../audit/pages/profile.component.vue";
 import PremiumComponent from "../audit/pages/premium.component.vue";
+
 
 const routes=[
     {
@@ -43,6 +45,11 @@ const routes=[
         name:'Requests',
         component:RequestsComponent,
         path:'/requests'
+    },
+    {
+        name:'Profile',
+        component:ProfileComponent,
+        path:'/profile'
     },
     {
         name:'Premium',
