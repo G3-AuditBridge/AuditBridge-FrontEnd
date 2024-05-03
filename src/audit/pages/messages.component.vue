@@ -1,5 +1,5 @@
 <script>
-import HeaderComponent from "../../public/components/header.component.vue";
+import HeaderComponent from "../components/header.component.vue";
 export default {
   name: "messages",
   components:{
