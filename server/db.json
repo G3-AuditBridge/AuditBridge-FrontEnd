@@ -10,11 +10,32 @@
       "auditor": false
     },
     {
-      "first_name": "a",
-      "last_name": "b",
+      "first_name": "Carl",
+      "last_name": "Test",
       "email": "carl@test.com",
       "password": "tester",
-      "id": "fL5I2xB"
+      "id": "2"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john@test.com",
+      "password": "johntest",
+      "id": "3"
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "id": "H_0aLzo"
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "id": "4WDgzkM"
     }
   ]
 }
