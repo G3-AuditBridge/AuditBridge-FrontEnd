@@ -42,6 +42,8 @@ import FloatLabel from "primevue/floatlabel";
 import Checkbox from "primevue/checkbox";
 import Rating from "primevue/rating";
 import router from "./router/index.js";
+import Password from "primevue/password";
+import MegaMenu from "primevue/megamenu";
 
 createApp(App)
     .use(router)
@@ -71,4 +73,6 @@ createApp(App)
     .component('pv-float-label', FloatLabel)
     .component('pv-checkbox', Checkbox)
     .component('pv-rating', Rating)
+    .component('pv-input-password', Password)
+    .component('pv-mega-menu', MegaMenu)
     .mount('#app')

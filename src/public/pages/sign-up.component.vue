@@ -1,11 +1,22 @@
 <script>
+import PublicHeader from "../components/public-header.component.vue";
+
 export default {
-  name: "sign-up"
+  name: "sign-up",
+  components:{
+    PublicHeader
+  }
 }
 </script>
 
 <template>
-<h1>Sign Up</h1>
+  <PublicHeader/>
+  <pv-button>
+    <router-link to="/sign-up-auditor">Auditor</router-link>
+  </pv-button>
+  <pv-button>
+    <router-link to="/sign-up-owner">Owner</router-link>
+  </pv-button>
 </template>
 
 <style scoped>

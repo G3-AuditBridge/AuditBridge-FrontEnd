@@ -2,12 +2,19 @@
   "users": [
     {
       "id": "1",
-      "firstname": "a",
-      "lastname": "b",
+      "first_name": "a",
+      "last_name": "b",
       "email": "c",
       "password": "d",
       "certificate": "f",
       "auditor": false
+    },
+    {
+      "first_name": "a",
+      "last_name": "b",
+      "email": "carl@test.com",
+      "password": "tester",
+      "id": "fL5I2xB"
     }
   ]
 }
